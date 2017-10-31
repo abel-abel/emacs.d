@@ -1,0 +1,93 @@
+This is the default configuration for Emacs.
+
+* Section 1 [2017-10-29 Sun 11:38]
+** Note
+the `C` in `C-x` means 'Control key'
+the `M` in `M-x` means 'Alt key'
+
+`C-g` exit or cancels the current command.
+
+eg. `C-x C-s` save current buffer/file. If I entered `C-x` and changed
+my mind, I can enter `C-g` to exit this command.
+
+** Step
+
+1. Section One: Move cursor around
+   1) move one line up: C-p
+   2) move one line down: C-n
+   3) move one character forward: C-f
+   4) move one character backward: C-b
+   5) move one word forward: M-f
+   6) move one word backward: M-b
+   7) move to the beginning of current line: C-a
+   8) move to the end of current line: C-e
+2. Section Two: save(as)/open/find a file/buffer
+   1) write current buffer to a file: C-x C-w then enter the file path
+      and name. I write this buffer to ~/Desktop/Emacs-tutorial-1.org
+   2) save file: C-x C-s
+   3) kill buffer: C-x k
+   4) find/open file: C-x C-f
+
+Bye! See you next time!
+
+* Section 2 [2017-10-29 Sun 23:20]
+** Step
+In this section, I will introduce how to add ELPA repository and install an
+Emacs theme.
+
+1. configre ELPA repository
+   1) create an Emacs initialization file: ~/.emacs.d/init.el
+   2) go to: https://elpa.emacs-china.org/ and copy the code snippet
+      to init.el
+   3) Eval the `init.el` buffer
+2. Install an Emacs theme package
+   1) `M-x list-packages` to list all of the Emacs packages of
+      archives online
+   2) choose a theme package and type `i` to select it
+   3) type `x` to start installing package
+   4) load the theme in your `init.el`
+   5) `M-x eval-buffer` to reload `init.el` file
+
+Now, Emacs looks better. :P
+
+Bye! See you next time! 
+* Section 3 [2017-10-30 Mon 22:06]
+** Step
+In this video, I'll introduce how to disable toolbar and menubar.
+
+we use two functions here: tool-bar-mode and menu-bar-mode.
+
+How to exit emacs? The shortcut is: `C-x C-c`
+
+How to create another window?
+
+1. create another window horizonally: `C-x 2`
+2. create another window vertically: `C-x 3`
+3. switch to another window: `C-x o` (`o` means `other`)
+4. close other windows except the current one: `C-x 1`
+
+How to navigate to the beginning of the current buffer? `M-<`
+
+How to navigate to the end of the current buffer? `M->`
+
+Bye! See you next time!
+* Section 4 [2017-10-31 Tue 21:38]
+In this section, I'll introduce how to install some packages I love.
+
+1. use-package: install and manage other packages
+2. magit: use git in Emacs
+3. lispy: write lisp code
+
+Now I will use magit to create a repository and make a commit. Great!
+
+using lispy, we can navigate in lisp code smoothly. :)
+
+Bye! See you next time!
+* Section 5 [2017-11-01 Wed 22:15]
+Today, I'll introduce how to set font in Emacs and use magit plugin.
+
+1. set font using `default-frame-alist` variable
+2. using magit
+   1) add a remote repository for this repository
+   2) we pull with rebase enabled and there's conflict
+   3) let's solve conflict now
