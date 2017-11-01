@@ -89,5 +89,19 @@ Today, I'll introduce how to set font in Emacs and use magit plugin.
 1. set font using `default-frame-alist` variable
 2. using magit
    1) add a remote repository for this repository
-   2) we pull with rebase enabled and there's conflict
-   3) let's solve conflict now
+   2) we use `git@abel-github.com:abel-abel/emacs.d.git' as your
+      remote repository
+   3) pull commits from origin and push local commits to remote repo
+      - we have unstaged changes. we stash them now.
+   4) we pull with rebase enabled and there's conflict
+   5) let's solve conflict now
+      - now changes in stash@{1} is merged to your stage
+      - we drop it now
+      - now we apply stash@{0}
+      - no conflict
+      - commit the changes now!
+      - drop stash@{0}
+   6) push our changes to remote repository
+   7) I want to put the changes to the latest commit using rebase
+
+Bye! See you next time! :)
