@@ -105,3 +105,26 @@ Today, I'll introduce how to set font in Emacs and use magit plugin.
    7) I want to put the changes to the latest commit using rebase
 
 Bye! See you next time! :)
+* Section 6 [2017-11-02 Thu 21:31]
+In this section, I will introduce how to use magit in an organized
+way.
+
+1. create an empty repository
+2. create a file in this repo
+3. stage untracked files
+4. show staged changes
+5. show unstaged changes
+6. commit staged changes
+7. show log history
+8. stage and unstage changes
+9. move changes to a stash
+10. pop a stash: if we pop a stash, the stash is poped from the
+    Stashed
+11. apply a stash: if we apply a stash, the stash is kept in Stashes
+    for future use
+12. create and checkout a new branch
+13. make a new commit in new branch
+14. checkout to another branch
+15. merge sub branch to merge branch
+
+Bye! See you next time!
