@@ -128,3 +128,17 @@ way.
 15. merge sub branch to merge branch
 
 Bye! See you next time!
+* Section 7 [2017-11-03 Fri 23:26]
+Today, I'll introduce how to look up info file in Emacs.
+
+1. Read Emacs manual: `C-h i m Emacs`
+2. Read Emacs Lisp Intro
+   - Sorry, I didn't install that info file. :(
+3. lookup a variable: `C-h v'
+4. lookup a function: `C-h f'
+
+Now, I'll show how to navigate in the info file.
+
+I'll try to show it slower.. :)
+
+Bye! See you next time!
