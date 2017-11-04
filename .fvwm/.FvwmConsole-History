@@ -1,0 +1,17 @@
+FvwmDeleteOrDestroy
+FvwmDeleteOrDestroy
+FvwmDeleteOrDestroy
+FvwmWindowShade
+FvwmMoveOrIconify
+FvwmMoveOrIconify
+FvwmIconifyOrShade
+FvwmIconifyOrShade
+Exec exec fvwm-root -r $[fvwm_wallpapers]/background.jpg
+exec fvwm-root -r $[fvwm_wallpapers]/background.jpg
+Exec exec gvim
+Exec exec fvwm-root -r $[fvwm_wallpapers]/background.png
+fvwm-root -r ~/.fvwm/wallpapers/clannad.jpg
+exec fvwm-root -r ~/.fvwm/wallpapers/clannad.jpg
+exec fvwm-root -r ~/.fvwm/wallpapers/clbackground.png
+fvwm-root -r ~/.fvwm/wallpapers/clbackground.png
+fvwm-root
