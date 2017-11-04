@@ -22,6 +22,9 @@
 (set-frame-parameter (selected-frame) 'alpha '(85 . 50))
 (add-to-list 'default-frame-alist '(alpha . (85 . 50)))
 
+;; visit soft link without asking
+(setq vc-follow-symlinks nil)
+
 ;; ==================================================
 ;; Packages Installation
 ;; ==================================================
