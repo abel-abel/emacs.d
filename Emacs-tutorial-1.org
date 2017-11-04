@@ -142,3 +142,10 @@ Now, I'll show how to navigate in the info file.
 I'll try to show it slower.. :)
 
 Bye! See you next time!
+* Section 8 [2017-11-04 Sat 10:58]
+In this section, I'll introduce how to install and use swiper plugin.
+
+using swiper, ivy and counsel. We can use completion in mode line more
+easily. :)
+
+How to make Emacs transparent?
