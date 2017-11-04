@@ -1,0 +1,7 @@
+This is a simple Emacs configuration.
+
+And I put some other software's configuration here:
+
+1. FVWM (got from Author of zensites.net)
+2. .Xresources
+3. .tmux.conf
