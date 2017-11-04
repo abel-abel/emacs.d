@@ -63,3 +63,27 @@
   (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
   (define-key read-expression-map (kbd "C-r") 'counsel-expression-history))
 
+(use-package company)
+(use-package auto-complete)
+
+(use-package tuareg
+  :config
+  (add-hook 'tuareg-mode-hook 'tuareg-imenu-set-imenu)
+  (setq auto-mode-alist
+	(append '(("\\.ml[ily]?$" . tuareg-mode)
+		  ("\\.topml$" . tuareg-mode))
+		auto-mode-alist))
+  (add-hook 'tuareg-mode-hook 'utop-setup-ocaml-buffer)
+  (add-hook 'tuareg-mode-hook 'merlin-mode)
+  (add-hook 'tuareg-mode-hook 'auto-complete-mode))
+
+(use-package utop
+  :config
+  (autoload 'utop-setup-ocaml-buffer "utop" "Toplevel for OCaml" t))
+
+(use-package merlin
+  :config
+  (setq merlin-use-auto-complete-mode t)
+  (setq merlin-error-after-save nil))
+
+(use-package ocp-indent)
