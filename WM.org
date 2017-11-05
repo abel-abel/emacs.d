@@ -1,0 +1,49 @@
+* i3 WM [2017-11-05 Sun 21:46]
+
+Today, I'll introduce i3 wm. :)
+
+I'll try i3 in a virtual machine.
+
+Linux version: Linux Mint 18.1
+
+1. Install i3, i3status, i3lock
+2. logout and enter i3
+3. create a terminal: Mod + Enter
+4. Mod is set to Windows key
+5. create new windown Vertically: Mod + v
+6. create new windown Horizonally: Mod + h
+7. move focus through windows: Mod + direction key
+8. Create a new workspace: Mod + number
+9. switch between different layout
+   1) Mod + s: stack layout
+   2) Mod + w: tab layout
+   3) Mod + e: default layout (tiling layout)
+10. toggle fullscreen for a windows: Mod + f
+
+You can see i3 document and shortcuts in `man i3`
+
+Let's copy our emacs configuration to virtual machine and configure
+i3status a little.
+
+1. Install hack font.
+2. Install compton to enabel Emacs transparency
+3. configure i3status
+   1) we don't have ~/.config/i3status/config, so we copy system
+      i3status configuration to that path
+   2) disable a few features in i3status config
+4. reload i3 WM with `Mod + Shift + r` to apply configuration
+5. the configuration works!
+
+
+1. Install dmenu
+2. `Mod + d` to launch dmenu and launch a program by name
+
+You can configure i3 in ~/.config/i3/config and custom your own
+shortcut.
+
+i3 configuration is so simple and customizable. For more information,
+please refer to: http://i3wm.org/docs/userguide.html
+
+Bye! See you next time!
+
+END [2017-11-05 Sun 22:33]
