@@ -149,3 +149,15 @@ using swiper, ivy and counsel. We can use completion in mode line more
 easily. :)
 
 How to make Emacs transparent?
+* Section 9 [2017-11-05 Sun 18:31]
+I have installed compton and Emacs has transparency now!
+
+Let's change a light theme. Now, It's better. :P
+
+Update packages.
+
+Install hydra package.
+
+Install ace-window package.
+
+Bye! See you next time.
