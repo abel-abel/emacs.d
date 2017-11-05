@@ -26,9 +26,11 @@
 ;; ==================================================
 (setq use-package-always-ensure t)
 
-;; load github (ahungry) theme
-(use-package github-theme)
-(load-theme 'github t)
+;; (use-package ahungry-theme)
+;; (use-package github-theme)
+(if (display-graphic-p)
+    (load-theme 'github t)
+  (load-theme 'ahungry t))
 
 (use-package magit
   :bind ("C-x g" . magit-status))
