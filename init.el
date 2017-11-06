@@ -12,6 +12,9 @@
 ;; disable menubar
 (menu-bar-mode -1)
 
+;; disable scrollbar
+(scroll-bar-mode -1)
+
 ;; Emacs frame transparency
 ;;(set-frame-parameter (selected-frame) 'alpha '(<active> . <inactive>))
 ;;(set-frame-parameter (selected-frame) 'alpha <both>)
@@ -215,3 +218,8 @@ _~_: modified
   (setq merlin-error-after-save nil))
 
 (use-package ocp-indent)
+
+(use-package yasnippet
+  :config
+  (yas-global-mode 1))
+(use-package yasnippet-snippets)
