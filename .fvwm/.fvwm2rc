@@ -161,6 +161,7 @@ AddToFunc   InitFunction
 + I Exec exec fcitx
 + I Exec exec compton -bc
 + I Exec exec feh --bg-scale $[fvwm_wallpapers]/clannad.jpg
++ I Exec exec xbacklight -dec 30
 + I FvwmXmms
 + I FvwmATerm
 
