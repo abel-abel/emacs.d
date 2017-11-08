@@ -178,3 +178,15 @@ Today, I'll introduce how to use abrev.
 6. 'kill-all-abbrevs'
 
 Bye! See you Next time!
+* Section 12 [2017-11-08 Wed 21:24]
+In this section, I'll introduce how to use macro in Emacs.
+
+1. `<f3>` start macro definition
+2. `<f4>` end macro definition or execute last defined macro
+3. `C-u _n_ <f4>` execute last defined macro n times
+4. `C-x C-k r` exectue last defined macro at the beginning of each
+   line of the region
+
+eg. I will delete all of the `;` at the *scratch* buffer
+
+Bye! See you next time!
