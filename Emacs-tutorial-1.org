@@ -190,3 +190,18 @@ In this section, I'll introduce how to use macro in Emacs.
 eg. I will delete all of the `;` at the *scratch* buffer
 
 Bye! See you next time!
+* Section 13 [2017-11-09 Thu 23:04]
+In this section, I'll introduce how to use bookmark and register.
+
+1. bookmark
+   1) show bookmarks list: `C-x r l`
+   2) create a bookmark: `C-x r m`
+2. register
+   1. save a piece of text to a register: `C-x r s _c_` _c_ is a
+      register name: numbers/characters, case matters.
+   2. insert content of a register to buffer: `C-x r i _c_`
+
+There are other uses for register. Maybe I'll introduce that in
+future. :)
+
+Bye! See you next time!
