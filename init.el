@@ -24,6 +24,8 @@
 ;; visit soft link without asking
 (setq vc-follow-symlinks nil)
 
+(setq set-mark-command-repeat-pop t)
+
 ;; ==================================================
 ;; Packages Installation
 ;; ==================================================
@@ -32,7 +34,7 @@
 ;; (use-package ahungry-theme)
 ;; (use-package github-theme)
 (if (display-graphic-p)
-    (load-theme 'github t)
+    (load-theme 'tsdh-light t)
   (load-theme 'ahungry t))
 
 (use-package magit

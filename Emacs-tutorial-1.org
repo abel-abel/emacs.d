@@ -205,3 +205,28 @@ There are other uses for register. Maybe I'll introduce that in
 future. :)
 
 Bye! See you next time!
+* Section 14 [2017-11-11 Sat 00:14]
+I was playing games just now. So... It's a little late. :-)
+
+In this section, I'll introduce how to use mark ring and register to
+store/jump to specific location.
+
+- use mark ring to jump to history positions.
+   1) `C-SPC C-SPC` to push a mark to ring
+   2) `C-u C-SPC` to pop a mark and jump to that position
+   3) Note: Every buffer has its own mark ring
+   4) set variable `set-mark-command-repeat-pop` to customize behavior
+      of `C-SPC`. It means that we don't have to type `C-u C-SPC`
+      everytime after the first `C-u`
+
+Now, I have set `set-mark-command-repeat-pop` to t. Let's have a
+try. It's better!
+
+- use register to save position.
+  1) `C-x r SPC _c_` save current position to buffer _c_. _c_ is the
+     buffer name which could be numbers, upper/lower characters.
+  2) `C-x r j _c_` to jump to the position that the register saved.
+
+It's very useful when you read code or refactor code. :-)
+
+Bye! See you next time!
