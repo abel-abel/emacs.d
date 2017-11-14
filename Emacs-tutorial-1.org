@@ -250,3 +250,24 @@ the opposite corner.
 8. `C-x <SPC>` toggle rectangle mode
 
 Bye! See you next time!
+* Section 16 [2017-11-15 Wed 00:00]
+In this section, I'll introduce how to use org-mode in Emacs.
+
+The current file is a org file. org-mode is enabled.
+
+1. `M-x org-mode` enable org-mode
+2. `M-Enter` create another title with the same level
+3. `S-right/left` toggle current item with `TODO`, `DONE` and nothing
+4. `M-right/left` change item level
+5. `M-S-Enter` create a TODO item
+6. `S-right` cycle different style of numbered/orderd lists
+7. `C-c C-p` jump back to upper item
+8. `C-c C-n` jump forward to upper item
+9. `C-c C-b` jump back to upper item with the same level
+10. `C-c C-f` jump forward to upper item with the same level
+11. `C-c C-u` jump to parent item
+12. `C-u C-c !` insert timestamp
+13. `C-c C-x C-i` clock in
+14. `C-c C-x C-o` clock out
+
+Bye! See you next time! :-)
