@@ -230,3 +230,23 @@ try. It's better!
 It's very useful when you read code or refactor code. :-)
 
 Bye! See you next time!
+* Section 15 [2017-11-14 Tue 23:34]
+Today, I'll introduce how to use rectangles in Emacs.
+
+region-rectangle is specified by the mark at one corner and point at
+the opposite corner.
+
+1. `C-x r M-w` save a region-rectangle
+2. `C-x r y` yank the last region-rectangle
+3. `C-x r N` insert line numbers at beginning of each line of
+   region-rectangle
+4. `C-x r c` clean the region-rectangle by replacing the contents with
+   spaces
+5. `C-x r k` kill the region-rectangle and save it to the last killed
+   rectangle
+6. `C-x r d` delete the region-rectangle WITHOUT saving it to the last
+   killed rectangle
+7. `C-x r o` insert spaces to fill the space of region-rectangle
+8. `C-x <SPC>` toggle rectangle mode
+
+Bye! See you next time!
