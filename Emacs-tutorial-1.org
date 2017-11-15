@@ -271,3 +271,23 @@ The current file is a org file. org-mode is enabled.
 14. `C-c C-x C-o` clock out
 
 Bye! See you next time! :-)
+* Section 17 [2017-11-15 Wed 23:32]
+In this section, I'll introduce how to search text in Emacs.
+
+1. `C-s` begin incremental search
+   - I bind `C-s` to swiper in my configuration, I'll disable it
+     now. Restart Emacs
+2. type `C-s` again to jump to next match
+3. `C-r` begin reverse incremental search
+4. type `C-s C-s` or `C-r C-r` to use last used string
+5. `<DEL>` jumps backward when searching
+6. `<ENTER>` to exit search and stay at the current position
+7. `C-g` exit search and return to the point when start search
+8. `C-u C-<SPC>` to return to where you were before searching
+9. `M-e` to edit search string when searching
+10. `C-w` append the next word at point to search string
+11. `C-M-w` delete the last character from the search string
+12. `C-M-y` append the character after point to the search string
+13. `M-s C-e` append the rest of the current to the search string
+
+Bye! Thank you for your time! See you next time! :-)
