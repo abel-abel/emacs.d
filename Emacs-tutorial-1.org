@@ -291,3 +291,8 @@ In this section, I'll introduce how to search text in Emacs.
 13. `M-s C-e` append the rest of the current to the search string
 
 Bye! Thank you for your time! See you next time! :-)
+* Section 18 [2017-11-17 Fri 08:34]
+In this section, I'll introduce what you can do in Emacs when you get
+bored. :-)
+
+2333 Bye! See you next time!
