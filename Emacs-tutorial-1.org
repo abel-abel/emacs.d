@@ -296,3 +296,20 @@ In this section, I'll introduce what you can do in Emacs when you get
 bored. :-)
 
 2333 Bye! See you next time!
+* Section 19 [2017-11-17 Fri 22:12]
+In this section, I will introduce indentation in Emacs
+
+1. `C-M-\` indent all lines in the region
+2. `C-x <TAB>` change indentation of all lines of the region
+   interactively using `<LEFT>/<RIGHT>` or `S-<LEFT>/<RIGHT>`. This
+   command can accept a prefix number argument. We can use a large
+   negative number to delete all the indentation
+3. `C-M-o` split the current line at point
+4. `M-^` merge the previous and current line
+5. `M-m` move to the first non-whitespace character on current line
+6. `M-i` indent whitespace at point
+7. `tabify` convert spaces in the region to `TAB`
+8. `untabify` convert `TAB` in the region to spaces
+
+Bye! Thank you for your time!
+See you next time! :-)
